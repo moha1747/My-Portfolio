@@ -1,0 +1,59 @@
+.hero-container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.title {
+  font-size: 73px;
+  text-align: center;
+  margin-top: 30vh;
+  @media screen and (max-width: 800px) {
+    font-size: 54px;
+  }
+  @media screen and (max-width: 600px) {
+    font-size: 43px;
+  }
+}
+
+.links-container {
+  text-align: center;
+  margin-top: -15px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  @media screen and (max-width: 800px) {
+    img {
+      width: 30px;
+    }
+  }
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+  .resume-btn {
+    border: 2px solid rgb(91, 209, 255);
+    padding: 5px 15px;
+    border-radius: 30px;
+    width: 100px;
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 18px
+    }
+  }

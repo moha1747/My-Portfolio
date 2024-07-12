@@ -1,0 +1,33 @@
+import "./App.css";
+import hero from "./images/hero.jpg";
+
+function App() {
+  return (
+    <div className="hero-container">
+      <img src={hero} alt="Hero Image" className="hero-image" />
+      <h1 className="title">I'm Abbaas Mohamud</h1>
+      <div className="links-container">
+        <a href="https://github.com/moha1747">
+          <img
+            alt="svgImg"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIKc3R5bGU9ImZpbGw6I0ZGRkZGRjsiPgo8cGF0aCBkPSJNMzIgNkMxNy42NDEgNiA2IDE3LjY0MSA2IDMyYzAgMTIuMjc3IDguNTEyIDIyLjU2IDE5Ljk1NSAyNS4yODYtLjU5Mi0uMTQxLTEuMTc5LS4yOTktMS43NTUtLjQ3OVY1MC44NWMwIDAtLjk3NS4zMjUtMi4yNzUuMzI1LTMuNjM3IDAtNS4xNDgtMy4yNDUtNS41MjUtNC44NzUtLjIyOS0uOTkzLS44MjctMS45MzQtMS40NjktMi41MDktLjc2Ny0uNjg0LTEuMTI2LS42ODYtMS4xMzEtLjkyLS4wMS0uNDkxLjY1OC0uNDcxLjk3NS0uNDcxIDEuNjI1IDAgMi44NTcgMS43MjkgMy40MjkgMi42MjMgMS40MTcgMi4yMDcgMi45MzggMi41NzcgMy43MjEgMi41NzcuOTc1IDAgMS44MTctLjE0NiAyLjM5Ny0uNDI2LjI2OC0xLjg4OCAxLjEwOC0zLjU3IDIuNDc4LTQuNzc0LTYuMDk3LTEuMjE5LTEwLjQtNC43MTYtMTAuNC0xMC40IDAtMi45MjggMS4xNzUtNS42MTkgMy4xMzMtNy43OTJDMTkuMzMzIDIzLjY0MSAxOSAyMi40OTQgMTkgMjAuNjI1YzAtMS4yMzUuMDg2LTIuNzUxLjY1LTQuMjI1IDAgMCAzLjcwOC4wMjYgNy4yMDUgMy4zMzhDMjguNDY5IDE5LjI2OCAzMC4xOTYgMTkgMzIgMTlzMy41MzEuMjY4IDUuMTQ1LjczOGMzLjQ5Ny0zLjMxMiA3LjIwNS0zLjMzOCA3LjIwNS0zLjMzOC41NjcgMS40NzQuNjUgMi45OS42NSA0LjIyNSAwIDIuMDE1LS4yNjggMy4xOS0uNDMyIDMuNjk3QzQ2LjQ2NiAyNi40NzUgNDcuNiAyOS4xMjQgNDcuNiAzMmMwIDUuNjg0LTQuMzAzIDkuMTgxLTEwLjQgMTAuNCAxLjYyOCAxLjQzIDIuNiAzLjUxMyAyLjYgNS44NXY4LjU1N2MtLjU3Ni4xODEtMS4xNjIuMzM4LTEuNzU1LjQ3OUM0OS40ODggNTQuNTYgNTggNDQuMjc3IDU4IDMyIDU4IDE3LjY0MSA0Ni4zNTkgNiAzMiA2ek0zMy44MTMgNTcuOTNDMzMuMjE0IDU3Ljk3MiAzMi42MSA1OCAzMiA1OCAzMi42MSA1OCAzMy4yMTMgNTcuOTcxIDMzLjgxMyA1Ny45M3pNMzcuNzg2IDU3LjM0NmMtMS4xNjQuMjY1LTIuMzU3LjQ1MS0zLjU3NS41NTRDMzUuNDI5IDU3Ljc5NyAzNi42MjIgNTcuNjEgMzcuNzg2IDU3LjM0NnpNMzIgNThjLS42MSAwLTEuMjE0LS4wMjgtMS44MTMtLjA3QzMwLjc4NyA1Ny45NzEgMzEuMzkgNTggMzIgNTh6TTI5Ljc4OCA1Ny45Yy0xLjIxNy0uMTAzLTIuNDExLS4yODktMy41NzQtLjU1NEMyNy4zNzggNTcuNjEgMjguNTcxIDU3Ljc5NyAyOS43ODggNTcuOXoiPjwvcGF0aD4KPC9zdmc+"
+          />
+        </a>
+        <a href="https://linkedin.com/in/abbaas1">
+          <img
+            alt="svgImg"
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9ImZpbGw6I0ZGRkZGRjsiPgogICAgPHBhdGggZD0iTTQxLDRIOUM2LjI0LDQsNCw2LjI0LDQsOXYzMmMwLDIuNzYsMi4yNCw1LDUsNWgzMmMyLjc2LDAsNS0yLjI0LDUtNVY5QzQ2LDYuMjQsNDMuNzYsNCw0MSw0eiBNMTcsMjB2MTloLTZWMjBIMTd6IE0xMSwxNC40N2MwLTEuNCwxLjItMi40NywzLTIuNDdzMi45MywxLjA3LDMsMi40N2MwLDEuNC0xLjEyLDIuNTMtMywyLjUzQzEyLjIsMTcsMTEsMTUuODcsMTEsMTQuNDd6IE0zOSwzOWgtNmMwLDAsMC05LjI2LDAtMTAgYzAtMi0xLTQtMy41LTQuMDRoLTAuMDhDMjcsMjQuOTYsMjYsMjcuMDIsMjYsMjljMCwwLjkxLDAsMTAsMCwxMGgtNlYyMGg2djIuNTZjMCwwLDEuOTMtMi41Niw1LjgxLTIuNTYgYzMuOTcsMCw3LjE5LDIuNzMsNy4xOSw4LjI2VjM5eiI+PC9wYXRoPgo8L3N2Zz4="
+          />
+        </a>
+      </div>
+      <div className="btn-container">
+        <div className="resume-btn">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAl0lEQVR4nO2SawqDQAwGcworvWI9rth6mikLEeJaH9CNomZg0R9ZvzGJSBD8AYocBSGgxAgklvAoiCVU9mj1C6i3jiDVpjulwhvNeecSvwQ0PNUmmhICFdDqB3vgOScAPEztx9a6SGAE3MKXJAYB9/CZ+Q5P+z7Zk+Iw7oTF7883SOwXno2j0+Pb9pVOVHJZKMR5BYJb8AUh2BBbQ/uxeQAAAABJRU5ErkJggg=="></img>
+          <a href="https://drive.google.com/file/d/1EIRXdSZUK824j4rz55eMw6UYd380gJ-W/view?usp=drive_link">Resume </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
